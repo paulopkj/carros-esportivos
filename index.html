@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./stylles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Carros Esportivos Tops</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="./assets/assets/Logo do Carro.jpg"
+        width="150"
+        alt="Logo Carros Esportivos Tops"
+      />
+      <nav>
+        <ul>
+          <li><a href="#">Carros</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Marcas</a></li>
+          <li><a href="#">Usados</a></li>
+        </ul>
+      </nav>
+      <div class="input-para-pesquisa">
+        <input type="text" placeholder="Busque por marca ou modelo" />
+        <button class="botao-pesquisa">🔍</button>
+      </div>
+      <button class="botao-entrar">Entrar</button>
+    </header>
+
+    <section class="secao-principal">
+      <img
+        class="imagem-principal-carro"
+        src="./assets/Carros esportivos.jpg"
+        alt="Foto principal Carro Esportivo"
+      />
+      <h1>Bem-vindo ao Carros Esportivos Tops</h1>
+    </section>
+
+    <section class="secao-principal-marcas">
+      <h2>Marcas</h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="./assets/assets/logo. audi. carro.jpg" alt="logo Audi" class="reveal"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./assets/assets/logo. porshe.jpg" alt="Porsche" class="reveal"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./assets/assets/logo. BMW. carro.jpg" alt="BMW" class="reveal"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./assets/assets/logo. ford. carro.webp" alt="Ford" class="reveal"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./assets/logo volkswagen. carro.jpg"
+                alt="Volkswagen"
+                class="reveal"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="secao-modelos-em-destaque">
+      <h2>Modelos em Destaque</h2>
+      <div class="modelos-em-destaque">
+        <div class="modelo">
+          <h3>AUDI R8</h3>
+          <img
+            class="imagem-modelo-carro"
+            src="./assets/AUDI R8. CARRO.jpeg"
+            alt="Audi R8"
+          />
+          <p>O Audi R8 é um superesportivo de alta performance, motor V10...</p>
+          <button class="botao-saiba-mais">Saiba mais</button>
+        </div>
+
+        <div class="modelo">
+          <h3>BMW Z4</h3>
+          <img
+            class="imagem-modelo-carro"
+            src="./assets/BMW Z4. CARRO.jpg"
+            alt="BMW Z4"
+          />
+          <p>
+            BMW Z4: conversível esportivo, motor turbo 382cv, desempenho e luxo.
+          </p>
+          <button class="botao-saiba-mais">Saiba mais</button>
+        </div>
+
+        <div class="modelo">
+          <h3>PORSCHE TAYCAN</h3>
+          <img
+            class="imagem-modelo-carro"
+            src="./assets/PORSCHE.webp"
+            alt="Porsche Taycan"
+          />
+          <p>
+            Porsche Taycan 2023: elétrico potente, até 761cv, aceleração
+            instantânea.
+          </p>
+          <button class="botao-saiba-mais">Saiba mais</button>
+        </div>
+
+        <div class="modelo">
+          <h3>FORD MUSTANG</h3>
+          <img
+            class="imagem-modelo-carro"
+            src="./assets/FORD. MUSTANG.jpeg"
+            alt="Ford Mustang"
+          />
+          <p>
+            O Mustang 2026 chega com toda a força do seu motor V8 de 480 cv. 
+          </p>
+          <button class="botao-saiba-mais">Saiba mais</button>
+        </div>
+
+        <div class="modelo">
+          <h3>VW JETTA GLI</h3>
+          <img
+            class="imagem-modelo-carro"
+            src="./assets/VW Jetta. carro.webp"
+            alt="VW Jetta GLI"
+          />
+          <p>
+            VW Jetta GLI 2025: motor 2.0 Turbo, 0-100 km/h em 6,7s, elegante e
+            potente.
+          </p>
+          <button class="botao-saiba-mais">Saiba mais</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao-servicos">
+      <h2>Serviços</h2>
+      <ul class="lista-servicos">
+        <li>Venda de Carros</li>
+        <li>Financiamento</li>
+        <li>Troca de Óleo</li>
+        <li>Lavagem e Polimento</li>
+      </ul>
+    </section>
+
+    <section class="secao-usados">
+      <h2>Carros Usados</h2>
+      <ul class="lista-usados">
+        <li>Volkswagen Gol</li>
+        <li>Fiat Uno</li>
+        <li>Chevrolet Onix</li>
+        <li>Ford Ka</li>
+      </ul>
+    </section>
+
+    <section class="secao-contatos">
+      <h2 class="titulo-contatos">Contatos</h2>
+      <form class="formulario-contato">
+        <input class="contato-inpat" type="text" placeholder="Nome" required />
+        <input class="contato-inpat" type="email" placeholder="Email" required />
+        <textarea placeholder="Mensagem" required></textarea>
+        <button type="submit" class="botao-enviar-mensagem">Enviar</button>
+    </section>
+
+    <section class="secao-whatsapp">
+      <a href="https://wa.me/5585989792739" target="_blank">
+      <img src="./assets/assets/icons8-whatsapp-logo-94.png" alt="WhatsApp" class="img-whatsapp" /></a>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Carros Esportivos Tops. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+   
+  </body>
+</html>
